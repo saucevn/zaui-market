@@ -29,4 +29,6 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm install
+    - run: npm install zmp-cli
     - run: zmp start
+    - run: zmp login
